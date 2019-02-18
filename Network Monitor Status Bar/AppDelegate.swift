@@ -23,7 +23,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         networkMonitorView = NetworkMonitorView(frame: frame)
         
         if let button = statusItem.button {
-            button.image = NSImage(named:NSImage.Name("empty"))
+            button.image = NSImage(named:"empty")
             button.addSubview(networkMonitorView!)
             
         }
