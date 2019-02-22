@@ -21,8 +21,8 @@ class NetworkMonitorView: NSView {
         super.draw(dirtyRect)
         
         // RECTs we will be drawing in
-        let rectBytesIn = NSMakeRect(2, 11, 56, 11)
-        let rectBytesOut = NSMakeRect(2, 1, 56, 11)
+        let rectBytesIn = NSMakeRect(2, 1, 56, 11)
+        let rectBytesOut = NSMakeRect(2, 11, 56, 11)
         
         let paragraph = NSMutableParagraphStyle()
         paragraph.alignment = .right
